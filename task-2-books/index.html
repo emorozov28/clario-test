@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books</title>
+    <meta name="title" content="Books" />
+
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/app.css">
+</head>
+
+<body>
+    <!--
+    Необходимо написать автоматический поиск по книгам с
+   использованием приведенной ниже разметки.
+    Поиск должен начинаться, если в поле поиска введено более трех
+   символов.
+    Окончание ввода текста нужно проверять задержкой в три секунды и
+   только потом отправлять запрос на поиск.
+    Для поиска нужно использовать URL
+   https://www.googleapis.com/books/v1/volumes?q=search+terms, где
+   search+terms - введенный пользователем текст
+    Более подробная документация по API
+   https://developers.google.com/books/docs/v1/using?#WorkingVolumes
+    -->
+
+    <div class="book-search">
+        <input type="search" class="book-search-input">
+        <div class="book-search-result">Enter a book title</div>
+    </div>
+
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>

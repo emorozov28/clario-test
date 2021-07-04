@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Open-sans';
+    src: url('../fonts/open-sans.woff2') format('woff2'),
+        url('../fonts/open-sans.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@mixin ff-OpenSans() {
+    font-family: 'Open-sans', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+  }

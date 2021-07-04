@@ -1,0 +1,9 @@
+body {
+  @include ff-OpenSans();
+  background-color: var(--bg-white);
+  color: var(--color-dark);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
